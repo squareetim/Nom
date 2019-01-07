@@ -1,0 +1,119 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+body{
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+}
+a:hover, a:focus{
+    color: white;
+    text-decoration: none;
+}
+.navbar-inverse .navbar-header button,
+.navbar-inverse .navbar-header a,
+.navbar-inverse .navbar-collapse .navbar-right li a{
+    color: white;
+}
+hr{
+    border-color: white;
+    border-width: 3px;
+    max-width: 300px;
+}
+header{
+    /*For plain color background for header */
+    /*border: 30px solid transparent;*/
+    /*padding: 15px;*/
+    /*margin-top: 50px;*/
+    /*width: 100%;*/
+    /*text-align: center;*/
+    /*background-color: darkslategrey;*/
+    /*color: white;*/
+
+    /*For image background for header */
+    background-image: url("../img/blur-child.jpg");
+    background-position: center;
+    width: 100%;
+    position: relative;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+header .header-content{
+    position: relative;
+    text-align: center;
+    padding: 100px 15px 100px;
+    width: 100%;
+}
+header .header-content .header-content-inner h1{
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+header .header-content .header-content-inner h3{
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    padding: 20px;
+}
+header .header-content .header-content-inner hr{
+    margin: 30px auto;
+}
+@media (min-width: 768px) {
+    header{
+        min-height: 100%;
+    }
+    header .header-content{
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding: 0 50px;
+    }
+    header .header-content .header-content-inner{
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header .header-content .header.header-content-inner h1{
+        font-size: 50px;
+    }
+}
+.thumbspace .thumbnail{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#nom_services h3{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.panel-group .panel .panel-heading h4 a{
+    color: white;
+    text-decoration: none;
+}
+/* Add a dark background color to the footer */
+footer {
+    background-color: transparent;
+    color: black;
+    padding: 32px;
+}
+footer p{
+    font-weight: bolder;
+}
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color: red;
+    text-decoration: none;
+}
